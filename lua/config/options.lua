@@ -10,6 +10,7 @@ vim.opt.list = false
 vim.opt.clipboard = "unnamedplus"
 vim.opt.foldmethod = "indent"
 vim.opt.foldlevel = 99
+vim.opt.colorcolumn = "88"
 vim.keymap.set("n", "<leader>r", "<cmd>LspRestart<cr>", { desc = "Restart LSP" })
 vim.diagnostic.config({ virtual_text = true, severity_sort = true})
 vim.keymap.set("n", "<leader>t", function()
