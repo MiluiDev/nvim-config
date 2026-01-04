@@ -28,3 +28,13 @@ vim.api.nvim_create_autocmd("TermOpen", {
   end,
 })
 
+-- recordar todo el workspace antes de cerrarlo.
+vim.opt.sessionoptions = {
+  "buffers",
+  "curdir",
+  "tabpages",
+  "winsize",
+  "help",
+  "globals",
+}
+
